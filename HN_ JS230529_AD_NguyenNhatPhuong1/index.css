@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 18px;
+}
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+.student {
+    margin-top: 30px;
+}
+.student h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-tt {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.form-tt label {
+    width: 15%;
+}
+.form-tt input, .form-tt select {
+    padding: 6px 12px;
+    width: 85%;
+    border-radius: 5px;
+    border: 1px solid #312525;
+}
+.form-tt-sex {
+    display: flex;
+}
+.form-tt-sex > label {
+    width: 15%;
+}
+.form-tt-sex .content {
+    width: 85%;
+}
+.form-tt-sex  .content input {
+    width: 20px;
+    height: 20px;
+}
+.form-tt-sex .content {
+    display: flex;
+}
+.form-tt-sex .item {
+    display: flex;
+    align-items: center;
+}
+.form-tt-sex .item input, .form-tt-sex .item label {
+    margin-left: 7px;
+}
+.form-tt-sex .item:first-child input {
+    margin-left: 0;
+}
+.ptn {
+    padding: 6px 14px;
+    color: #b9abaf;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #3779c5;
+}
+.ptn:hover {
+    cursor: pointer;
+}
+.ptn_search {
+    background-color: rgb(50, 150, 117);
+    margin-top: 20px;
+    padding: 10px;
+}
+.list {
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.list h2 {
+    text-align: center;
+    font-size: 30px;
+}
+.list table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.style {
+    width: 100%;
+}
+.style thead tr {
+    background-color: #2ea6c7;
+    color: #ffffff;
+    text-align: left;
+}
+.style th, .style td {
+    padding: 12px 12px;
+}
+
+.style tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+.ptn-danger {
+    background-color: rgb(228, 99, 99);
+    padding: 10px;
+}
+.search-sort {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.search-sort input {
+    padding: 6px 13px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid rgb(180, 175, 175);
+}
+.ptn-delete{
+    padding: 5px;
+    background-color: #912e41;
+}
+.ptn-edit{
+    padding: 5px;
+    background-color: #009879;
+}
+.sort-abc{
+    background-color: rgb(117, 161, 195);
+    margin-top: 20px;
+    padding: 10px;
+}
